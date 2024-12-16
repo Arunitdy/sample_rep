@@ -21,7 +21,8 @@ int main()
         int mid=s+(e-s) /2;
         if(a[mid]==t)
         {
-            printf("element at%d",mid);
+            //printf("element at%d",mid);
+            printf("changes made here");
             break;
         }
         else if(a[mid]<t)
