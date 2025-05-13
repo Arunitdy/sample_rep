@@ -7,17 +7,20 @@ int main()
 
     printf("enter the size of array:");
     scanf("%d",&n);
-      int a[n];
+    int a[n];
     printf("enter the elements:\n");
+
     for(int i=0;i<n;i++)
     {
         scanf("%d",& a[i]);
     }
+
     int t;
     printf("enter the data need to find:");
     scanf("%d",&t);
     int s=0;
     int e=n-1;
+
     while(s<=e)
     {
         int mid=s+(e-s) /2;
